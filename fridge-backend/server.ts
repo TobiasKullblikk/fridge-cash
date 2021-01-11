@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 
 app.get('/', (req, res, next) => {
-    res.send('Hello from API')
+    res.send('Hello from API v2')
 })
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`))
